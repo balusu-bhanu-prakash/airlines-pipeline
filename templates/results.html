@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Flight Status</title>
+</head>
+<body>
+    <h1>
+        {% if final_result == 1 %}
+            Your flight has been delayed
+        {% elif final_result == 0 %}
+            Your flight is on time
+        {% endif %}
+    </h1>
+</body>
+</html>

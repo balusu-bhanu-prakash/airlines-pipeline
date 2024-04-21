@@ -1,0 +1,13 @@
+[2024-04-21 11:16:33,142] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-21 11:16:33,155] 96 werkzeug - INFO -  * Debugger PIN: 490-458-615
+[2024-04-21 11:16:41,711] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:16:41] "GET / HTTP/1.1" 200 -
+[2024-04-21 11:16:43,344] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:16:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-04-21 11:16:50,686] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:16:50] "GET /predict HTTP/1.1" 200 -
+[2024-04-21 11:17:05,072] 62 root - INFO - Dataframe created
+[2024-04-21 11:17:05,357] 25 root - INFO - Error occured in predict function in prediction_pipeline location
+[2024-04-21 11:17:05,471] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:17:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-04-21 11:17:05,685] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:17:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-04-21 11:17:05,690] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:17:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-04-21 11:17:05,735] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:17:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-04-21 11:17:05,744] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:17:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-04-21 11:17:40,602] 96 werkzeug - INFO -  * Detected change in 'd:\\airlines-pipeline\\source_code\\pipeline\\prediction_pipeline.py', reloading

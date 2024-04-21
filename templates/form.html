@@ -1,0 +1,43 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="airline">Airline:</label>
+        <input type="text" id="airline" name="airline" placeholder="Enter airline (str)">
+    </div>
+
+    <div class="form-group">
+        <label for="flight">Flight:</label>
+        <input type="text" id="flight" name="flight" placeholder="Enter flight number (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="airport_from">Airport From:</label>
+        <input type="text" id="airport_from" name="airport_from" placeholder="Enter departure airport (str)">
+    </div>
+    
+    <div class="form-group">
+        <label for="airport_to">Airport To:</label>
+        <input type="text" id="airport_to" name="airport_to" placeholder="Enter destination airport (str)">
+    </div>
+  
+    <div class="form-group">
+        <label for="day_of_week">Day of Week:</label>
+        <input type="text" id="day_of_week" name="day_of_week" placeholder="Enter day of week (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="text" id="time" name="time" placeholder="Enter time (float)">
+    </div>         
+  
+    <div class="form-group">
+        <label for="length">Length:</label>
+        <input type="text" id="length" name="length" placeholder="Enter length (float)">
+    </div>
+  
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

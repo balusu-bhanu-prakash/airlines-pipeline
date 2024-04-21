@@ -1,0 +1,8 @@
+[2024-04-21 11:28:42,532] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-21 11:28:42,542] 96 werkzeug - INFO -  * Debugger PIN: 490-458-615
+[2024-04-21 11:28:47,496] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:28:47] "GET / HTTP/1.1" 200 -
+[2024-04-21 11:28:48,228] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:28:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-04-21 11:28:55,356] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:28:55] "GET /predict HTTP/1.1" 200 -
+[2024-04-21 11:29:03,662] 62 root - INFO - Dataframe created
+[2024-04-21 11:29:03,761] 96 werkzeug - INFO - 127.0.0.1 - - [21/Apr/2024 11:29:03] "POST /predict HTTP/1.1" 200 -
+[2024-04-21 11:33:52,237] 96 werkzeug - INFO -  * Detected change in 'd:\\airlines-pipeline\\app.py', reloading

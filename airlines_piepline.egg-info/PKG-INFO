@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: airlines-piepline
+Version: 0.0.1
+Summary: End to End ML pipeline
+Author: Balusu Bhanu Prakash
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: flask
+Requires-Dist: datetime
+Requires-Dist: pickles
