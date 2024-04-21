@@ -1,7 +1,7 @@
 The dataset 'airlines' [obtained from [OpenML](https://www.openml.org/search?type=data&sort=runs&status=active&qualities.NumberOfInstances=between_100000_1000000&qualities.NumberOfFeatures=lte_10&id=1169)] contains 8 columns from departure airport code, arrival airport code, time, day of the week, etc.
 
 1. Create a virtual environment (use python 3.10 or above)
-   """python3 -m venv virtualenv"
+   """python3 -m venv virtualenv"""
    This creates a virtual environment named 'virtualenv'. Next activate the 'virtualenv' and setup requirements and install them through 'setup.py'. Initialize git and add file names in '.gitignore' to stop tracking.
 
 2. My datatset was intitally in ARFF format, I've processed it a bit as while its conversion to CSV format, many columns were still utf-8 encoded. After decoding was done and the duplicate records were dropped, I've saved it to the data folder.
